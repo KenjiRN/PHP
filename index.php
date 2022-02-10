@@ -7,10 +7,13 @@
     <title>Meu primeiro ficheiro PHP</title>
 </head>
 <body>
-    <h1>Meu primeiro ficheiro PHP</h1>
+
 
     <?php
-        echo="Serei um grande programador FRONT END"
+        $preco = $_GET["100"];
+        echo "O preço do produto é R$ $preco";
+        $preco = $preco + ($preco*10/100);
+        echo "<br> E o novo preço com 10% de aumento é R$ $preco";
     ?>
 </body>
-</html>
+</html> 
