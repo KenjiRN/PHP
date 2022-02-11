@@ -1,4 +1,12 @@
 <?php 
     echo "Olá!";
-    $idade = 21;
-    echo $idade;
+    $idade1 = 21;
+    echo $idade1;
+
+  
+
+$idade = 22;
+
+$idade = 21;
+
+echo $idade;
