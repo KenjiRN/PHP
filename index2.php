@@ -1,3 +1,6 @@
+<body>
+    
+
 <?php 
     echo "Olá!";echo "\n";
     $idade1 = 21;
@@ -43,3 +46,8 @@ $verdadeiro = true;
 $falso = false;
 
 echo gettype($verdadeiro);echo "\n";
+
+?>
+
+
+</body>
