@@ -7,15 +7,8 @@
     <title>Meu primeiro ficheiro PHP</title>
 </head>
 <body>
-
-    <div>
-        <?php
-            $valor = $_GET["v"];
-            
-            $rq = sqrt($valor);
-            echo "A raiz de $valor é igual a $rq";
-        ?>
-    </div>
-    <a href="index.html">Voltar</a>
+    <form method="get" action="index.php"></form>
+    Valor: <input type="number" name="v">
+    <input type="submit" value="Calcular Raiz">
 </body>
 </html> 
