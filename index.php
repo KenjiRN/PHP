@@ -15,7 +15,4 @@
             $rq = sqrt($valor);
             echo "A raiz de $valor é igual a $rq";
         ?>
-    </div>
-    <a href="index.html">Voltar</a>
-</body>
-</html> 
+  
