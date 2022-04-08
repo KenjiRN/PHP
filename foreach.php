@@ -15,30 +15,11 @@ $contasCorrentes = [
     ]
 ];
 
-foreach ($contasCorrentes as $cpf => $conta) {
-    echo $cpf . " " . $conta['titular'] . PHP_EOL;
-} 
-
-
-
-
-//EXERCICIO DESAFIO ABAIXO
-
-$carros = [
-    'LMS-2232' => [
-       'marca' => 'VW',
-       'modelo' => 'Golf'
-    ],
-    'KLM-1324' => [
-        'marca' => 'Ford',
-        'modelo' => 'Fiesta'
-    ],
-    'OPN-5612' => [
-        'marca' => 'Fiat',
-        'modelo' => 'Uno'
-    ],
+$contasCorrentes['123.258.852-12'] = [
+    'titular' => 'Claudia',
+    'saldo' => 2000
 ];
 
-foreach ($carros as $placa => $carro) {
-    echo $placa . ': ' . $carro['marca'] . PHP_EOL;
+foreach ($contasCorrentes as $cpf => $conta) {
+    echo $cpf . " " . $conta['titular'] . PHP_EOL;
 }
